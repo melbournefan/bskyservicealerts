@@ -6,7 +6,7 @@ sql_statements = [
     id INTEGER PRIMARY KEY,
     alert_header text NOT NULL,
     alert_description text NOT NULL,
-    time_stamp DATE,
+    created_at DATE,
 );"""
 
 ]
